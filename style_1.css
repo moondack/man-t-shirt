@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('fonts/AbhayaLibre-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:24px;
+    font-size: 24px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+    width: 100%;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0px;
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 400px;
+    height: 600px;
+}
+
+@media (max-width: 1600px) {
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:24px;
+    font-size: 24px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 400px;
+    height: 600px;
+}
+
+.card_4{
+    display: none;
+}
+}
+
+@media (max-width: 1200px) {
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:24px;
+    font-size: 24px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 400px;
+    height: 600px;
+}
+
+.card_3{
+    display: none;
+}
+
+.card_4{
+    display: none;
+}
+}
+
+@media (max-width: 1024px){
+    .text-header{
+    letter-spacing:6px;
+    font-size: 24px;
+}
+}
+
+@media (max-width: 760px) {
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:12px;
+    font-size: 24px;
+}
+
+header img{
+    margin-right: 10px;
+}
+
+.cart img{
+    width: 80px;
+    height: 2px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+        margin-left: 0px;
+    width: 100%;
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 400px;
+    height: 600px;
+}
+
+.card_2{
+    display: none;
+}
+
+.card_3{
+    display: none;
+}
+
+.card_4{
+    display: none;
+}
+}
+@media (max-width: 840px){
+    .card_2{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+.text-header{
+    letter-spacing:6px;
+    font-size: 12px;
+}
+
+}
+@media (max-width: 480px) {
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:12px;
+    font-size: 24px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+        margin-left: 0px;
+    width: 100%;
+
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 400px;
+    height: 600px;
+}
+
+.card_3{
+    display: none;
+}
+
+.card_4{
+    display: none;
+}
+}
+
+@media (max-width: 360px) {
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+}
+
+.text-header{
+    letter-spacing:12px;
+    font-size: 20px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+.justifu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-main{
+    font-size: 32px;
+}
+
+.Line_man{
+        margin-left: 0px;
+    width: 100%;
+}
+
+.man-card{
+    margin-top: 60px;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.man-card img{
+    width: 360px;
+    height: 600px;
+}
+
+.card_2{
+    display: none;
+}
+
+.card_3{
+    display: none;
+}
+
+.card_4{
+    display: none;
+}
+}
+
+
