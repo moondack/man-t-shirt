@@ -364,12 +364,13 @@ header img{
 }
 }
 
-@media (max-width: 360px){
+@media (max-width: 320px){
     .man-card img{
-    width: 320px;
+    width: 300px;
     height: 600px;
 }
 }
+
 
 
 
