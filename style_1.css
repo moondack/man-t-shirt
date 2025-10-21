@@ -364,4 +364,12 @@ header img{
 }
 }
 
+@media (max-width: 360px){
+    .man-card img{
+    width: 320px;
+    height: 600px;
+}
+}
+
+
 
